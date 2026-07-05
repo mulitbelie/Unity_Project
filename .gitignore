@@ -5,8 +5,11 @@
 # Recommended: add any editor/OS/tool-specific ignore rules from the Global/ templates as needed.
 # See: https://github.com/github/gitignore/tree/main/Global
 #
+# 用户设置
 UserSettings/
+# VSCode配置文件夹
 .vscode/
+Plugins/
 .utmp/
 [Ll]ibrary/
 [Tt]emp/
@@ -15,6 +18,7 @@ UserSettings/
 [Bb]uilds/
 [Ll]ogs/
 /[Uu]ser[Ss]ettings/
+# 日志文件
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
